@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Usa '/' em desenvolvimento para não atrapalhar o dev server,
+  // e o path do repositório no build de produção.
+  base: mode === "development" ? "/" : "/lucrando-ademicon-boost/",
   server: {
     host: "::",
     port: 8080,
