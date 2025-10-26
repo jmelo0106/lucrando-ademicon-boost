@@ -7,9 +7,9 @@ const Hero = () => {
   return (
     <section className="relative min-h-[90vh] bg-gradient-hero overflow-hidden">
       <div className="container mx-auto px-4 py-16 lg:py-24">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-4xl mx-auto">
           {/* Text Content */}
-          <div className="space-y-8 animate-fade-in">
+          <div className="space-y-8 animate-fade-in text-center">
             <div className="inline-block">
               <div className="bg-gradient-primary bg-clip-text text-transparent font-bold text-5xl lg:text-6xl xl:text-7xl leading-tight">
                 Ademicon
@@ -28,7 +28,7 @@ const Hero = () => {
               <strong className="text-foreground">lucro real e seguro</strong>.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 pt-4">
+            <div className="flex justify-center pt-4">
               <Button 
                 size="lg" 
                 className="bg-gradient-primary hover:opacity-90 transition-all text-lg h-14 px-8 shadow-elegant"
@@ -62,20 +62,6 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-          </div>
-          
-          {/* Image/Visual */}
-          <div className="relative animate-scale-in">
-            <div className="relative rounded-2xl overflow-hidden shadow-elegant bg-card p-8">
-              <div className="aspect-square bg-gradient-hero rounded-xl flex items-center justify-center">
-                <div className="text-center space-y-4">
-                  <TrendingUp className="w-24 h-24 text-primary mx-auto" />
-                  <div className="text-4xl font-bold text-foreground">Lucro Real</div>
-                  <div className="text-xl text-muted-foreground">com seu consórcio</div>
-                </div>
-              </div>
-            </div>
-            <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full bg-gradient-primary opacity-10 blur-3xl rounded-full"></div>
           </div>
         </div>
       </div>
