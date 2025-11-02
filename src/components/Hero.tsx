@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { MessageCircle, Shield, CheckCircle, TrendingUp } from "lucide-react";
 
 const Hero = () => {
-  const whatsappLink = "https://wa.me/5541999999999?text=Quero+saber+como+lucrar+com+meu+consórcio+Ademicon";
+  const whatsappLink = "https://wa.me/5541998821487?text=Quero+saber+como+lucrar+com+meu+consórcio+Ademicon";
 
   return (
     <section className="relative min-h-[90vh] bg-gradient-hero overflow-hidden">

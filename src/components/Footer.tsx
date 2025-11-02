@@ -25,17 +25,17 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="font-semibold text-lg text-background">Contato</h3>
             <div className="space-y-3">
-              <a href="tel:41999999999" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
+              <a href="tel:41998821487" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">(41) XXXX-XXXX</span>
+                <span className="text-sm">(41) 99882-1487</span>
               </a>
-              <a href="mailto:contato@ademicon.com.br" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
+              <a href="mailto:camillagarnik@gmail.com" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">contato@ademicon.com.br</span>
+                <span className="text-sm">camillagarnik@gmail.com</span>
               </a>
-              <a href="https://wa.me/5541999999999" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
+              <a href="https://wa.me/5541998821487" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-background/80 hover:text-background transition-colors">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">WhatsApp: (41) 9 9999-9999</span>
+                <span className="text-sm">WhatsApp: (41) 9 9882-1487</span>
               </a>
             </div>
           </div>

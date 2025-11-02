@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 import { MessageCircle, Phone, Mail } from "lucide-react";
 
 const ContactCTA = () => {
-  const whatsappLink = "https://wa.me/5541999999999?text=Tenho+interesse+em+investir+no+consórcio+Ademicon+e+entender+os+lucros+com+a+carta+contemplada";
+  const whatsappLink = "https://wa.me/5541998821487?text=Tenho+interesse+em+investir+no+consórcio+Ademicon+e+entender+os+lucros+com+a+carta+contemplada";
 
   return (
     <section className="py-20 bg-gradient-hero">
@@ -35,14 +35,15 @@ const ContactCTA = () => {
             <div className="grid md:grid-cols-3 gap-6 pt-8 border-t border-border">
               <div className="flex flex-col items-center gap-2">
                 <Phone className="w-6 h-6 text-primary" />
-                <p className="text-sm font-medium text-foreground">(41) XXXX-XXXX</p>
+                <p className="text-sm font-medium text-foreground">(41) 99882-1487</p>
                 <p className="text-xs text-muted-foreground">Segunda a Sexta, 9h às 18h</p>
-              </div>
+              </div>               
               <div className="flex flex-col items-center gap-2">
                 <Mail className="w-6 h-6 text-primary" />
-                <p className="text-sm font-medium text-foreground">contato@ademicon.com.br</p>
+                <p className="text-sm font-medium text-foreground">camillagarnik@gmail.com</p>
                 <p className="text-xs text-muted-foreground">Resposta em até 24h</p>
               </div>
+              
               <div className="flex flex-col items-center gap-2">
                 <MessageCircle className="w-6 h-6 text-primary" />
                 <p className="text-sm font-medium text-foreground">WhatsApp</p>
