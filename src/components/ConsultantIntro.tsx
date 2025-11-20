@@ -11,7 +11,7 @@ const ConsultantIntro = () => {
               <div className="absolute inset-0 bg-gradient-primary rounded-full blur-2xl opacity-20"></div>
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary/20 shadow-elegant">
                 <img
-                  src="/lucrando-ademicon-boost/fotoCamilla.jpeg"
+                  src="/lucrando-ademicon-boost/fotoCamillaBlazerCinza.png"
                   alt="Camilla - Consultora Ademicon"
                   className="w-full h-full object-cover"
                 />
